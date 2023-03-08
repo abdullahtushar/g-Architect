@@ -48,15 +48,18 @@
 }
 .img{
     border-radius:10px;
-    justify-content: center;
     margin-bottom: 50px;
+    position: relative;
    
   
 }
-.img img{
+.img .banner{
     width: 800px;
-    align-items: center;
-    margin-left: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ 
+
 
 }
 .second-section{
@@ -98,8 +101,8 @@
 }
 .right-h{
     width: 50%;
-    margin-left: 30px;
-    margin-top: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
     position: relative;
 }
 .div-1{
@@ -158,28 +161,33 @@
     border: 1px solid orange;
     width: 13%;
     border-radius: 5px;
-    margin: 70px;
-    padding: 10px;
+    display: block;
+  margin: auto;
+ 
    
 }
 .s{
-    margin-left: 68px;
+   text-align: center;
 }
 .pp{
-    margin-left: 40px;
+    text-align: center;
     font-size: 15px;
     font-weight: 500;
 }
 .d{
     width: 20%;
- margin-left: 65px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .ffsec{
     margin: 10px;
 }
 .sponsor{
-    margin-left: 500px;
-    margin-top: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
 }
 .sponsor h2{
     margin-left: 120px;
@@ -188,9 +196,9 @@
     align-items: center;
 }
 .logo{
-    justify-content: center;
-    align-items: center;
-    margin-left: 140px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .logo img{
     padding: 15px;
@@ -205,9 +213,26 @@
 
 }
 .lastsec p{
-    margin-left: 550px;
+    margin-left: 350px;
 }
 body{
     margin: 0;
     padding: 0;
+}
+
+@media (max-width:500px) {
+    .grid-img img{
+        width: 55%;
+        margin: 5px;
+    }
+    .writtings{
+        margin-top: 220px;
+    }
+    .right-h img{
+        width: 100%;
+        margin-left: 30px;
+        margin-top: 30px;
+        
+    }
+    
 }
